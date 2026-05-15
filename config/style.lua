@@ -3,7 +3,7 @@ function M.setup()
   hl.config({
     general = {
       gaps_in          = 5,
-      gaps_out         = 20,
+      gaps_out         = 10,
 
       border_size      = 2,
 
@@ -47,6 +47,10 @@ function M.setup()
     animations = {
       enabled = true,
     },
+
+    input = {
+      numlock_by_default = true
+    }
   })
 
   -- Default curves and animations, see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Animations/
